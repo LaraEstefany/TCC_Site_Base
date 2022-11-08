@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 49, 48);
+    height: 28vh;
+}
+
+#logo {
+    height: 130px;
+}
+
+#coracao {
+    height: 30px;
+}
+
+#sacola {
+    height: 30px;
+}
+
+.headerUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 22vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+nav {
+    height: 8vh;
+    color: white;
+    font-size: 20px;
+}
+
+li:hover {
+    color: rgb(216, 32, 32);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+footer {
+    display: flex;
+    background-color: darkorange;
+    height: 40vh;
+}
