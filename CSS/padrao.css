@@ -9,6 +9,35 @@ header {
     height: 130px;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: 40vw;
+    background-color: antiquewhite;
+    border-radius: 18px;
+}
+
+#search {
+    width: 37vw;
+    margin-left: 1vw;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#lupa {
+    height: 4vh;
+}
+
 #coracao {
     height: 30px;
 }
@@ -22,7 +51,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 22vh;
+    height: 19vh;
 }
 
 ul {
@@ -36,7 +65,7 @@ ul {
 }
 
 nav {
-    height: 8vh;
+    height: 11vh;
     color: white;
     font-size: 20px;
 }
