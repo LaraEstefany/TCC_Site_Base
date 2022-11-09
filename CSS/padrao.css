@@ -16,7 +16,7 @@ form {
     justify-content: flex-start;
     height: 40px;
     width: 40vw;
-    background-color: antiquewhite;
+    background-color: white;
     border-radius: 18px;
 }
 
@@ -34,15 +34,7 @@ button:hover {
     cursor: pointer;
 }
 
-#lupa {
-    height: 4vh;
-}
-
-#coracao {
-    height: 30px;
-}
-
-#sacola {
+.icone {
     height: 30px;
 }
 
@@ -52,6 +44,12 @@ button:hover {
     align-items: center;
     justify-content: space-around;
     height: 19vh;
+}
+
+.caixaFav {
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
 }
 
 ul {
