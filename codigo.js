@@ -1,7 +1,7 @@
 var listaProdutosJSON = [
     {
         "nome": "Homens Regatas Carta Gráfica",
-        "preco": "47.99",
+        "preco": 47.99,
         "categoria": [
             "camiseta",
             "masculino",
@@ -18,7 +18,7 @@ var listaProdutosJSON = [
     },
     {
         "nome": "Homens Regatas Carta Gráfica",
-        "preco": "51.99",
+        "preco": 51.99,
         "categoria": [
             "camiseta",
             "masculino"
@@ -34,7 +34,7 @@ var listaProdutosJSON = [
     },
     {
         "nome": "Desenho Animado Estampa em toda a parte Formal",
-        "preco": "59.90",
+        "preco": 59.90,
         "categoria": [
             "camiseta",
             "masculino",
@@ -51,7 +51,7 @@ var listaProdutosJSON = [
     },
     {
         "nome": "Desenho Animado Estampa em toda a parte Formal",
-        "preco": "61.95",
+        "preco": 61.95,
         "categoria": [
             "camiseta",
             "masculino",
@@ -68,7 +68,7 @@ var listaProdutosJSON = [
     },
     {
         "nome": "Slogan Fogo Estilos de Rua Camiseta & Tanque Masculina",
-        "preco": "57.99",
+        "preco": 57.99,
         "categoria": [
             "camiseta",
             "masculino"
@@ -84,8 +84,17 @@ var listaProdutosJSON = [
     }
 ]
 
-var listaProdutos = JSON.parse(listaProdutosJSON)
-
 function pesquisar() {
-    const pesquisa = document.getElementById("search").value
+    debugger
+    const pesquisa = document.getElementById("search").value.toLowerCase()
+
+    for (var contador = 0; contador < listaProdutosJSON.length; contador++) {
+        var item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
+
+        if (item.indexOf(pesquisa) >= 0) {
+            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
+
+            // document.createElement
+        }
+    }
 }
