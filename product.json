@@ -1,3 +1,496 @@
 [
-    {}
+    {
+        "nome": "Homens Regatas Carta Gráfica",
+        "preco": "47.99",
+        "categoria": [
+            "camiseta",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/18/1660808050767132598e7d8b92770941f67d4ea6cc_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Homens Regatas Carta Gráfica",
+        "preco": "51.99",
+        "categoria": [
+            "camiseta",
+            "masculino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/07/11/16575387104fbd1f52ec5eede560a000e4db8b16a0_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/05/16/16526665202ed433ee52c3adbae00116b945b9d23a_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Desenho Animado Estampa em toda a parte Formal",
+        "preco": "59.90",
+        "categoria": [
+            "camiseta",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/08/25/166141433264fc75536c051f1d5a816dde5a527472_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/25/1661414334f6a8d578e66115e130e1c8b9f5dbd0dc_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Desenho Animado Estampa em toda a parte Formal",
+        "preco": "61.95",
+        "categoria": [
+            "camiseta",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/22/16506044904687957addf6817c7deabc1e07caa942_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/22/16506044940d13b74717f05cad7fb4b40ca9a6f27f_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Slogan Fogo Estilos de Rua Camiseta & Tanque Masculina",
+        "preco": "57.99",
+        "categoria": [
+            "camiseta",
+            "masculino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/21/1650506107a1c7f97debd7e602fee116688a1074fa_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/21/1650506109d7128d4332b0f97629eb18f0993f8077_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça simples ocasional",
+        "preco": "77.90",
+        "categoria": [
+            "calça",
+            "masculino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/08/26/16299460480b54e25f2f28af3a24de44b00eadb27e_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/08/26/16299460510ca12bda7097b07c709aeef203888dc3_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça manta cordão formal",
+        "preco": "91.90",
+        "categoria": [
+            "calça",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/06/164922257813fe026ac898097e65303bdf323980f1_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/06/164922257998c48217b5c581aa71d073f32987f8e6_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça carta bolso duplo",
+        "preco": "94.95",
+        "categoria": [
+            "calça",
+            "masculino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/07/1649294162e04008fcec49099b28493440ec8e85bd_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/07/1649294163579aa42d9bab395e326b99a556adc124_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça bolso do lado com cordão na cintura",
+        "preco": "112.99",
+        "categoria": [
+            "calça",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/10/12/1665543371a086408f2b6f658c8d7df0f30efa0510_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/12/1665543373cf0c700b738173c74a2e2b68bd932f3c_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça estilo de rua",
+        "preco": "80.99",
+        "categoria": [
+            "calça",
+            "masculino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/11/10/1636514747224e99b5e0744da32e31f88b768ebdf2_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/11/10/1636514748522133274ad5c92c194328572bce5157_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis SPORT",
+        "preco": "164.95",
+        "categoria": [
+            "calçados",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/07/25/1658717156edba6557d9aa7faaf4410f8a21125ca1_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/06/10/1654850329bd9ce5aeaf6b3579bddf2b645dabb184_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Carta Gráfica",
+        "preco": "261.90",
+        "categoria": [
+            "calçados",
+            "masculino"
+        ],
+        "tamanho": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/10/19/1666163253213b07e164cfdbc2a9bd418941c5da98_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/19/16661632549e400b2b0ecbab2d0c4aa98d22b57f66_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Colorblock",
+        "preco": "189.99",
+        "categoria": [
+            "calçados",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/06/13/16551180814f4f8b76e8de7b097ab5cd092c93f5a6_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/06/13/165511808369ecf08b291bbe2a7f66e156e1c7647c_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis skatista",
+        "preco": "178.99",
+        "categoria": [
+            "calçados",
+            "masculino"
+        ],
+        "tamanho": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/09/22/16638360001745e25d09a9c334e018ee954b6038c4_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/09/22/16638360036aa7ad18028821e9635597b97a4af980_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Patins frontais",
+        "preco": "131.95",
+        "categoria": [
+            "calçados",
+            "masculino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "38",
+            "39",
+            "40",
+            "41"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/05/06/162028651769b05e7dbd6af7fbc0af2e4d56bae19b_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/05/06/1620286510df281128b83bb4d05270ffcd0a229297_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Camiseta Grande Gráfico",
+        "preco": "57.99",
+        "categoria": [
+            "camiseta",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658397838d66ee1f9b471aa34ad6435ac08f98fba_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658397836b7163bb4b666fbe6b181954bb372daf0_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Desenho Animado Slogan Ocasional",
+        "preco": "54.90",
+        "categoria": [
+            "camiseta",
+            "feminino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/03/23/1648026263d4c1fb96c620582744991891992998a3_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/03/23/164802627066eb98acb34224eb48778d02407bb857_thumbnail_600x.webp"
+    },
+    {
+        "nome": "DAZY 2 em 1 Camiseta Ombro Caído",
+        "preco": "83.95",
+        "categoria": [
+            "camiseta",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/07/27/16589059076353edeb75a187a63ecac38d9c55f174_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/07/27/1658905910e9559402d42df54e67e694476022a8e2_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Carta Ocasional Camiseta",
+        "preco": "55.90",
+        "categoria": [
+            "camiseta",
+            "feminino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/05/06/1620288247292e9aef3d3ea440db96334ebf8c86c9_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/05/06/162028824900b189dda572438d72dbb9a0c36f5010_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Camiseta Refletiva",
+        "preco": "64.90",
+        "categoria": [
+            "camiseta",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/03/24/164810318112b1ef7a967f8b2a285c3de85ed04c22_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/03/24/1648103188d64c68deb95a8e3b051e966e3c59e7b2_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça Cargo Bolso inclinado",
+        "preco": "116.90",
+        "categoria": [
+            "calça",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/08/12/1628735480bbcdabfe45bd59f4e5e6fe461071f5a2_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/08/12/162873548384b25cba31fc1d11b1437451b935afc5_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça Manta Formal",
+        "preco": "67.99",
+        "categoria": [
+            "calça",
+            "feminino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/10/19/16346270149499bb005ed23f5b7685de7de2ede249_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/10/19/1634627016fc1819080966195877ece32835e1c8cf_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça desportivo 3 cores",
+        "preco": "92.90",
+        "categoria": [
+            "calça",
+            "feminino"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/24/1650763974d9f8ce81c1823db2b16421933396a663_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/24/165076397234fa886c35486414bbaee5169584befa_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça Leggin Gráfica",
+        "preco": "66.99",
+        "categoria": [
+            "calça",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/02/16488641590e0bc0c9a2463c1dc063b66f725b83bb_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/02/16488641615a55dd52ec04ff6e3ef73b6296abc5f5_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Calça Paraquedas",
+        "preco": "90.95",
+        "categoria": [
+            "calça",
+            "feminino",
+            "lançamento"
+        ],
+        "tamanho": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/09/29/1664414685f4dd6a0c510a7038c18461532effd257_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/09/29/166441468718fc08c01e05ff4765abc09d3d704c23_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Esportivo",
+        "preco": "188.99",
+        "categoria": [
+            "calçados",
+            "feminino"
+        ],
+        "tamanho": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/08/23/1661238589d6cd2461dff48cd0c79fddca1c027b38_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/23/166123859199008b6ca6f5cbece7788c0f25e844f4_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis skatista duas cores",
+        "preco": "150.95",
+        "categoria": [
+            "calçados",
+            "feminino"
+        ],
+        "tamanho": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/07/25/165871485660e2bf791c652a0d37c88dd473bb7d64_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/07/25/165871486538a9302e8145ce616e540677d553f343_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Decoração Remendo",
+        "preco": "175.95",
+        "categoria": [
+            "calçados",
+            "feminino"
+        ],
+        "tamanho": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/10/11/166548627290fa4512197eb94eb8b217b02fdd0b5b_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/11/166548627749d40e1aad0c21b9bbe4b48046a4827a_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Elegante Coração",
+        "preco": "198.95",
+        "categoria": [
+            "calçados",
+            "feminino"
+        ],
+        "tamanho": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/04/26/1650961197ebee696d66a79ddff85b2e7970999ddc_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/26/1650961207db986e8b9c2d090d8a945a7937c3c282_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Tênis Casual",
+        "preco": "190.90",
+        "categoria": [
+            "calçados",
+            "feminino"
+        ],
+        "tamanho": [
+            "35",
+            "36",
+            "37",
+            "38"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/09/29/16329069918a6d73ba3864e7d27a215c14b48bf893_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/09/29/16329069942f4c1dc99f71cc9784a653459d6020cc_thumbnail_600x.webp"
+    }
 ]
