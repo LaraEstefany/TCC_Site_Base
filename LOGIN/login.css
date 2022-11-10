@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    height: 80vh;
+    width: 30vw;
+    background-color: blue;
+    border-radius: 10px;
+}
