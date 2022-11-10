@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: rgb(48, 49, 48);
-    height: 26vh;
+    height: 25vh;
 }
 
 #logo {
@@ -43,7 +43,7 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 19vh;
+    height: 20vh;
 }
 
 .caixaFav {
@@ -57,15 +57,20 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
 }
 
 nav {
-    height: 11vh;
+    height: 5vh;
     color: white;
     font-size: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .li-Cat:hover {
@@ -80,11 +85,7 @@ footer {
     background-color: rgb(48, 49, 48);
     height: 40vh;
     align-items: center;
-    justify-content: space-between;
-}
-
-.aviso {
-    margin-left: 200px;
+    justify-content: center;
 }
 
 /* DIV */
@@ -109,29 +110,6 @@ footer {
     text-align: center;
     color: rgb(246, 245, 245);
 }
-
-.dev {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-    margin-right: 250px;
-}
-
-.pDev {
-    color: rgb(106, 157, 245);
-    font-family: 'Poppins', sans-serif;
-}
-
-#listaDev {
-    margin-top: 70px;
-    margin-left: 15px;
-}
-
-.li-Dev {
-    margin-top: 10px;
-    color: rgb(246, 245, 245);
-}
-
 
 .logoBase {
     width: 80px;
