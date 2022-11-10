@@ -1,9 +1,21 @@
 main {
     display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    /* background-image: url(/assets/wallpaperflare.com_wallpaper.jpg); */
-    height: 72vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(139, 139, 139);
+    /* kground-image: url(/assets/wallpaper-street.jpg; */
+    height: 75vh;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 60vh;
+    width: 20vw;
 }
 
 /* figure {
