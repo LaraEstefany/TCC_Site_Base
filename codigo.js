@@ -86,4 +86,6 @@ var listaProdutosJSON = [
 
 var listaProdutos = JSON.parse(listaProdutosJSON)
 
-
+function pesquisar() {
+    const pesquisa = document.getElementById("search").value
+}
