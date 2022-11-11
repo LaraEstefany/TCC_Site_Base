@@ -102,61 +102,94 @@ function pesquisar() {
     aparecer()
 }
 
+function trocarPagina(pagina) {
+
+    let menu = ""
+    for (let contador = 0; contador < listaProdutosJSON.length; contador++) {
+        let item = listaProdutosJSON[contador].categoria
+
+        if (pagina === 1) {
+            menu = "lançamento"
+        } else if (pagina === 2) {
+            menu = "feminino"
+        } else if (pagina === 3) {
+            menu = "masculino"
+        } else if (pagina === 4) {
+            menu = "calçados"
+        } else if (pagina === 5) {
+            menu = "acessórios"
+        }
+
+        if (item.indexOf(menu) >= 0) {
+            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
+
+            queroQueApareca.push(listaProdutosJSON[contador])
+        }
+    }
+    aparecer()
+}
+
 var produtos = document.getElementById("produtos")
 var aside = document.getElementById("aside")
 
 function aparecer() {
-    alert(queroQueApareca.length)
-    let pesquisa = document.getElementById("search").value
 
-    let h2 = document.createElement("h2")
-    h2.innerText = pesquisa
+    if (queroQueApareca.length > 0) {
+        alert(queroQueApareca.length)
+        let pesquisa = document.getElementById("search").value
 
-    let detalhe = document.createElement("div")
-    detalhe.classList.add("detalheCategoria")
+        let h2 = document.createElement("h2")
+        h2.innerText = pesquisa
 
-    aside.append(h2)
-    aside.append(detalhe)
+        let detalhe = document.createElement("div")
+        detalhe.classList.add("detalheCategoria")
 
-    for (let contador = 0; contador < queroQueApareca.length; contador++) {
-        let item = queroQueApareca[contador]
+        aside.append(h2)
+        aside.append(detalhe)
 
-        alert(item.nome)
+        for (let contador = 0; contador < queroQueApareca.length; contador++) {
+            let item = queroQueApareca[contador]
 
-
-        let div = document.createElement("div")
-        div.classList.add("produto")
-
-        let figure = document.createElement("div")
-        figure.classList.add("figure")
-
-        let img = document.createElement("img")
-        img.classList.add("fotoProduto")
-        img.src = queroQueApareca[contador].img
-
-        let texto = document.createElement("p")
-        texto.classList.add("textoProduto")
-        texto.innerText = queroQueApareca[contador].nome
-
-        let h3 = document.createElement("h3")
-        h3.classList.add("precoProduto")
-        h3.innerText = queroQueApareca[contador].preco
-
-        let botao = document.createElement("input")
-        botao.classList.add("adicionarCarrinho")
-        botao.value = 'COMPRAR'
-        debugger
+            alert(item.nome)
 
 
-        div.append(figure)
-        div.append(texto)
-        div.append(img)
-        div.append(h3)
-        div.append(botao)
-        figure.append(img)
-        produtos.append(div)
+            let div = document.createElement("div")
+            div.classList.add("produto")
+
+            let figure = document.createElement("div")
+            figure.classList.add("figure")
+
+            let img = document.createElement("img")
+            img.classList.add("fotoProduto")
+            img.src = queroQueApareca[contador].img
+
+            let texto = document.createElement("p")
+            texto.classList.add("textoProduto")
+            texto.innerText = queroQueApareca[contador].nome
+
+            let h3 = document.createElement("h3")
+            h3.classList.add("precoProduto")
+            h3.innerText = queroQueApareca[contador].preco
+
+            let botao = document.createElement("input")
+            botao.classList.add("adicionarCarrinho")
+            botao.value = 'COMPRAR'
+            debugger
+
+
+            div.append(figure)
+            div.append(texto)
+            div.append(img)
+            div.append(h3)
+            div.append(botao)
+            figure.append(img)
+            produtos.append(div)
+        }
     }
+    queroQueApareca = []
 }
+
+
 
 // function aparecer() {
 //     alert(queroQueApareca.length)
