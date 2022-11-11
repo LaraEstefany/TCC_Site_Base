@@ -85,6 +85,7 @@ var listaProdutosJSON = [
 ]
 
 var queroQueApareca = []
+var paginas = 0
 
 function pesquisar() {
 
@@ -94,7 +95,6 @@ function pesquisar() {
         let item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
 
         if (item.indexOf(pesquisa) >= 0) {
-            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
 
             queroQueApareca.push(listaProdutosJSON[contador])
         }
@@ -126,13 +126,15 @@ function trocarPagina(pagina) {
         }
     }
     aparecer()
-    queroQueApareca = []
 }
 
 var produtos = document.getElementById("produtos")
 var aside = document.getElementById("aside")
 
 function aparecer() {
+
+    produtos.innerHTML = ""
+    aside.innerHTML = ""
 
     if (queroQueApareca.length > 0) {
 
@@ -182,8 +184,11 @@ function aparecer() {
             figure.append(img)
             produtos.append(div)
         }
+        queroQueApareca = []
     }
 }
+
+trocarPagina(1)
 
 
 
