@@ -22,15 +22,36 @@
 
 <body>
     <main>
-        <form action="login.html">
+        <form action="login.html" onsubmit="login()">
             <a href="../index.html" target="_blank"><img id="logo" src="../assets/logo.png" alt="Logo"></a>
-            <input id="email" type="email" required>
-            <input id="senha" type="password" required>
-            <input type="submit" value="Entrar">
-            <p>Não está registrado?</p>
+
+            <div class="emailSenha">
+                <input id="email" type="email" placeholder="E-mail" required>
+                <input id="senha" type="password" placeholder="Senha" required>
+            </div>
+
+            <div class="conectado">
+                <label for="conectado">
+                    <input type="checkbox" name="conectado" id="conectado">Mantenha-me conectado.
+                </label>
+            </div>
+
+            <div class="botoes">
+                <input type="submit" value="Entrar">
+                <input type="button" value="Conectar-se com Google">
+                <input type="button" value="Conectar-se com Facebook">
+            </div>
+
+            <div class="cadastre-se">
+                <p>Não possui uma conta?</p>
+                <a href="../CADASTRO/cadastro.html" title="Cadastro" target="_blank">
+                    <p>Cadastre-se</p>
+                </a>
+            </div>
+
         </form>
     </main>
-
+    <script src="../codigo.js"></script>
 </body>
 
 </html>

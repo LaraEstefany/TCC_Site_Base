@@ -3,20 +3,65 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: rgb(218, 73, 54);
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 80vh;
     width: 30vw;
-    background-color: blue;
+    background-color: rgb(218, 218, 218);
     border-radius: 10px;
+}
+
+.emailSenha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 16vh;
+    width: 30vw;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    width: 30vw;
+}
+
+.conectado {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 25vw;
 }
 
 input {
     background-color: aliceblue;
     border: 1px solid black;
+    height: 5vh;
+    width: 25vw;
+}
+
+p {
+    width: fit-content;
+}
+
+.cadastre-se {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 18vw;
+}
+
+#conectado {
+    width: fit-content;
+    margin-right: 1vw;
 }
