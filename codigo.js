@@ -84,17 +84,70 @@ var listaProdutosJSON = [
     }
 ]
 
+var queroQueApareca = []
+
 function pesquisar() {
-    debugger
+
     const pesquisa = document.getElementById("search").value.toLowerCase()
 
     for (var contador = 0; contador < listaProdutosJSON.length; contador++) {
-        var item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
+        let item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
 
         if (item.indexOf(pesquisa) >= 0) {
             alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
 
-            // document.createElement
+            queroQueApareca.push(listaProdutosJSON[contador])
         }
     }
+    aparecer()
 }
+
+function aparecer() {
+    alert(queroQueApareca.length)
+
+    var produtos = document.getElementById("produtos")
+    for (var contador = 0; contador < queroQueApareca.length; contador++) {
+        let item = queroQueApareca[contador]
+
+        alert(item.nome)
+
+        var div = document.getElementById(`produto${contador}`)
+        div.classList.add("produto")
+
+        var figure = document.getElementById(`figure${contador}`)
+        figure.classList.add("figure")
+
+        var img = getElementById(`fotoProduto${contador}`)
+        img.classList.add("fotoProduto")
+        img.src = queroQueApareca[contador].img
+
+        var p = getElementById(`textoProduto${contador}`)
+        p.classList.add("textoProduto")
+        p.innerText = queroQueApareca[contador].nome
+
+        var h3 = getElementById(`precoProduto${contador}`)
+        h3.classList.add("precoProduto")
+        h3.innerText = queroQueApareca[contador].preco
+
+        var botao = getElementById(`botaoProduto${contador}`)
+        botao.classList.add("adicionarCarrinho")
+        botao.value = 'COMPRAR'
+    }
+}
+
+// var div = document.createElement(div)
+//         div.classList.add("produto")
+//         produtos.append(div)
+
+//         var figure = document.createElement(figure)
+//         div.append(figure)
+
+//         var img = document.createElement(img)
+//         img.classList.add("fotoProduto")
+//         img.src = queroQueApareca[contador].img
+//         div.append(img)
+
+//         var texto = document.createElement(p)
+//         texto.classList.add("textoProduto")
+//         texto.innerText = queroQueApareca[contador].nome
+//         div.append(texto)

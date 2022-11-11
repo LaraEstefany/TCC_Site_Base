@@ -18,12 +18,52 @@ main {
 
 .produto {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: white;
-    height: 60vh;
+    height: 65vh;
     width: 20vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 73, 54);
+    height: 35vh;
+    width: 18vw;
+}
+
+.fotoProduto {
+    height: 35vh;
+}
+
+.textoProduto {
+    font-size: larger;
+}
+
+.precoProduto {
+    font-size: 30px;
+}
+
+.precoProduto:hover {
+    color: rgb(218, 73, 54);
+}
+
+.adicionarCarrinho {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    height: 5vh;
+    width: 13vw;
+    cursor: pointer;
+}
+
+.adicionarCarrinho:hover {
+    background-color: rgb(218, 73, 54);
+
 }
 
 .detalheCategoria {
@@ -36,6 +76,8 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
 }
+
+
 
 /* figure {
     background-color: rgb(192, 175, 20);
