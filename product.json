@@ -1,7 +1,7 @@
 [
     {
-        "nome": "Homens Regatas Carta Gráfica",
-        "preco": "47.99",
+        "nome": "Camiseta FIRST-CLASS",
+        "preco": 47.99,
         "categoria": [
             "camiseta",
             "masculino",
@@ -17,8 +17,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/18/1660808050767132598e7d8b92770941f67d4ea6cc_thumbnail_600x.webp"
     },
     {
-        "nome": "Homens Regatas Carta Gráfica",
-        "preco": "51.99",
+        "nome": "Camiseta Long size",
+        "preco": 51.99,
         "categoria": [
             "camiseta",
             "masculino"
@@ -33,8 +33,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/05/16/16526665202ed433ee52c3adbae00116b945b9d23a_thumbnail_600x.webp"
     },
     {
-        "nome": "Desenho Animado Estampa em toda a parte Formal",
-        "preco": "59.90",
+        "nome": "Blusa cifrão lisa",
+        "preco": 59.90,
         "categoria": [
             "camiseta",
             "masculino",
@@ -50,8 +50,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/25/1661414334f6a8d578e66115e130e1c8b9f5dbd0dc_thumbnail_600x.webp"
     },
     {
-        "nome": "Desenho Animado Estampa em toda a parte Formal",
-        "preco": "61.95",
+        "nome": "Blusa com estampa de desenho",
+        "preco": 61.95,
         "categoria": [
             "camiseta",
             "masculino",
@@ -67,8 +67,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/22/16506044940d13b74717f05cad7fb4b40ca9a6f27f_thumbnail_600x.webp"
     },
     {
-        "nome": "Slogan Fogo Estilos de Rua Camiseta & Tanque Masculina",
-        "preco": "57.99",
+        "nome": "Camiseta streetwear OBSERVE",
+        "preco": 57.99,
         "categoria": [
             "camiseta",
             "masculino"
@@ -83,8 +83,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/21/1650506109d7128d4332b0f97629eb18f0993f8077_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça simples ocasional",
-        "preco": "77.90",
+        "nome": "Calça simples ocasional creme",
+        "preco": 77.90,
         "categoria": [
             "calça",
             "masculino"
@@ -99,8 +99,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2021/08/26/16299460510ca12bda7097b07c709aeef203888dc3_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça manta cordão formal",
-        "preco": "91.90",
+        "nome": "Calça xadrez com cordão",
+        "preco": 91.90,
         "categoria": [
             "calça",
             "masculino",
@@ -116,8 +116,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/06/164922257998c48217b5c581aa71d073f32987f8e6_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça carta bolso duplo",
-        "preco": "94.95",
+        "nome": "Calça com bolso duplo",
+        "preco": 94.95,
         "categoria": [
             "calça",
             "masculino"
@@ -132,8 +132,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/07/1649294163579aa42d9bab395e326b99a556adc124_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça bolso do lado com cordão na cintura",
-        "preco": "112.99",
+        "nome": "Calça Sarja com bolsos laterais",
+        "preco": 112.99,
         "categoria": [
             "calça",
             "masculino",
@@ -149,8 +149,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/12/1665543373cf0c700b738173c74a2e2b68bd932f3c_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça estilo de rua",
-        "preco": "80.99",
+        "nome": "Calça moletom larga",
+        "preco": 80.99,
         "categoria": [
             "calça",
             "masculino"
@@ -166,7 +166,7 @@
     },
     {
         "nome": "Tênis SPORT",
-        "preco": "164.95",
+        "preco": 164.95,
         "categoria": [
             "calçados",
             "masculino",
@@ -182,8 +182,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/06/10/1654850329bd9ce5aeaf6b3579bddf2b645dabb184_thumbnail_600x.webp"
     },
     {
-        "nome": "Tênis Carta Gráfica",
-        "preco": "261.90",
+        "nome": "Tênis sola alta",
+        "preco": 261.90,
         "categoria": [
             "calçados",
             "masculino"
@@ -198,8 +198,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/19/16661632549e400b2b0ecbab2d0c4aa98d22b57f66_thumbnail_600x.webp"
     },
     {
-        "nome": "Tênis Colorblock",
-        "preco": "189.99",
+        "nome": "Tênis Colorblock FASHION",
+        "preco": 189.99,
         "categoria": [
             "calçados",
             "masculino",
@@ -216,7 +216,7 @@
     },
     {
         "nome": "Tênis skatista",
-        "preco": "178.99",
+        "preco": 178.99,
         "categoria": [
             "calçados",
             "masculino"
@@ -232,7 +232,7 @@
     },
     {
         "nome": "Tênis Patins frontais",
-        "preco": "131.95",
+        "preco": 131.95,
         "categoria": [
             "calçados",
             "masculino",
@@ -248,8 +248,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2021/05/06/1620286510df281128b83bb4d05270ffcd0a229297_thumbnail_600x.webp"
     },
     {
-        "nome": "Camiseta Grande Gráfico",
-        "preco": "57.99",
+        "nome": "Camiseta lisa com detalhe emoji",
+        "preco": 57.99,
         "categoria": [
             "camiseta",
             "feminino",
@@ -266,7 +266,7 @@
     },
     {
         "nome": "Desenho Animado Slogan Ocasional",
-        "preco": "54.90",
+        "preco": 54.90,
         "categoria": [
             "camiseta",
             "feminino"
@@ -282,7 +282,7 @@
     },
     {
         "nome": "DAZY 2 em 1 Camiseta Ombro Caído",
-        "preco": "83.95",
+        "preco": 83.95,
         "categoria": [
             "camiseta",
             "feminino",
@@ -298,8 +298,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/07/27/1658905910e9559402d42df54e67e694476022a8e2_thumbnail_600x.webp"
     },
     {
-        "nome": "Carta Ocasional Camiseta",
-        "preco": "55.90",
+        "nome": "Camiseta preta lisa Babygirl",
+        "preco": 55.90,
         "categoria": [
             "camiseta",
             "feminino"
@@ -315,7 +315,7 @@
     },
     {
         "nome": "Camiseta Refletiva",
-        "preco": "64.90",
+        "preco": 64.90,
         "categoria": [
             "camiseta",
             "feminino",
@@ -332,7 +332,7 @@
     },
     {
         "nome": "Calça Cargo Bolso inclinado",
-        "preco": "116.90",
+        "preco": 116.90,
         "categoria": [
             "calça",
             "feminino",
@@ -348,8 +348,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2021/08/12/162873548384b25cba31fc1d11b1437451b935afc5_thumbnail_600x.webp"
     },
     {
-        "nome": "Calça Manta Formal",
-        "preco": "67.99",
+        "nome": "Calça xadrez",
+        "preco": 67.99,
         "categoria": [
             "calça",
             "feminino"
@@ -365,7 +365,7 @@
     },
     {
         "nome": "Calça desportivo 3 cores",
-        "preco": "92.90",
+        "preco": 92.90,
         "categoria": [
             "calça",
             "feminino"
@@ -381,7 +381,7 @@
     },
     {
         "nome": "Calça Leggin Gráfica",
-        "preco": "66.99",
+        "preco": 66.99,
         "categoria": [
             "calça",
             "feminino",
@@ -398,7 +398,7 @@
     },
     {
         "nome": "Calça Paraquedas",
-        "preco": "90.95",
+        "preco": 90.95,
         "categoria": [
             "calça",
             "feminino",
@@ -414,8 +414,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/09/29/166441468718fc08c01e05ff4765abc09d3d704c23_thumbnail_600x.webp"
     },
     {
-        "nome": "Tênis Esportivo",
-        "preco": "188.99",
+        "nome": "Tênis Esportivo tricolor",
+        "preco": 188.99,
         "categoria": [
             "calçados",
             "feminino"
@@ -431,7 +431,7 @@
     },
     {
         "nome": "Tênis skatista duas cores",
-        "preco": "150.95",
+        "preco": 150.95,
         "categoria": [
             "calçados",
             "feminino"
@@ -446,8 +446,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/07/25/165871486538a9302e8145ce616e540677d553f343_thumbnail_600x.webp"
     },
     {
-        "nome": "Tênis Decoração Remendo",
-        "preco": "175.95",
+        "nome": "Tênis sola reta",
+        "preco": 175.95,
         "categoria": [
             "calçados",
             "feminino"
@@ -463,7 +463,7 @@
     },
     {
         "nome": "Tênis Elegante Coração",
-        "preco": "198.95",
+        "preco": 198.95,
         "categoria": [
             "calçados",
             "feminino"
@@ -478,8 +478,8 @@
         "img2": "https://img.ltwebstatic.com/images3_pi/2022/04/26/1650961207db986e8b9c2d090d8a945a7937c3c282_thumbnail_600x.webp"
     },
     {
-        "nome": "Tênis Casual",
-        "preco": "190.90",
+        "nome": "Tênis plataforma 3 cores",
+        "preco": 190.90,
         "categoria": [
             "calçados",
             "feminino"
