@@ -121,12 +121,12 @@ function trocarPagina(pagina) {
         }
 
         if (item.indexOf(menu) >= 0) {
-            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
 
             queroQueApareca.push(listaProdutosJSON[contador])
         }
     }
     aparecer()
+    queroQueApareca = []
 }
 
 var produtos = document.getElementById("produtos")
@@ -135,7 +135,7 @@ var aside = document.getElementById("aside")
 function aparecer() {
 
     if (queroQueApareca.length > 0) {
-        alert(queroQueApareca.length)
+
         let pesquisa = document.getElementById("search").value
 
         let h2 = document.createElement("h2")
@@ -149,9 +149,6 @@ function aparecer() {
 
         for (let contador = 0; contador < queroQueApareca.length; contador++) {
             let item = queroQueApareca[contador]
-
-            alert(item.nome)
-
 
             let div = document.createElement("div")
             div.classList.add("produto")
@@ -186,7 +183,6 @@ function aparecer() {
             produtos.append(div)
         }
     }
-    queroQueApareca = []
 }
 
 
