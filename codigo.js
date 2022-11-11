@@ -117,19 +117,19 @@ function aparecer() {
         var figure = document.getElementById(`figure${contador}`)
         figure.classList.add("figure")
 
-        var img = getElementById(`fotoProduto${contador}`)
+        var img = document.getElementById(`fotoProduto${contador}`)
         img.classList.add("fotoProduto")
         img.src = queroQueApareca[contador].img
 
-        var p = getElementById(`textoProduto${contador}`)
+        var p = document.getElementById(`textoProduto${contador}`)
         p.classList.add("textoProduto")
         p.innerText = queroQueApareca[contador].nome
 
-        var h3 = getElementById(`precoProduto${contador}`)
+        var h3 = document.getElementById(`precoProduto${contador}`)
         h3.classList.add("precoProduto")
         h3.innerText = queroQueApareca[contador].preco
 
-        var botao = getElementById(`botaoProduto${contador}`)
+        var botao = document.getElementById(`botaoProduto${contador}`)
         botao.classList.add("adicionarCarrinho")
         botao.value = 'COMPRAR'
     }
