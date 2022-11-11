@@ -53,6 +53,7 @@ main {
 }
 
 .adicionarCarrinho {
+    text-align: center;
     background-color: rgb(68, 68, 68);
     color: white;
     font-family: 'Oswald', sans-serif;

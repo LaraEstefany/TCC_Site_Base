@@ -88,9 +88,9 @@ var queroQueApareca = []
 
 function pesquisar() {
 
-    const pesquisa = document.getElementById("search").value.toLowerCase()
+    let pesquisa = document.getElementById("search").value.toLowerCase()
 
-    for (var contador = 0; contador < listaProdutosJSON.length; contador++) {
+    for (let contador = 0; contador < listaProdutosJSON.length; contador++) {
         let item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
 
         if (item.indexOf(pesquisa) >= 0) {
@@ -103,14 +103,26 @@ function pesquisar() {
 }
 
 var produtos = document.getElementById("produtos")
+var aside = document.getElementById("aside")
 
 function aparecer() {
     alert(queroQueApareca.length)
+    let pesquisa = document.getElementById("search").value
+
+    let h2 = document.createElement("h2")
+    h2.innerText = pesquisa
+
+    let detalhe = document.createElement("div")
+    detalhe.classList.add("detalheCategoria")
+
+    aside.append(h2)
+    aside.append(detalhe)
 
     for (let contador = 0; contador < queroQueApareca.length; contador++) {
         let item = queroQueApareca[contador]
 
         alert(item.nome)
+
 
         let div = document.createElement("div")
         div.classList.add("produto")
@@ -133,6 +145,8 @@ function aparecer() {
         let botao = document.createElement("input")
         botao.classList.add("adicionarCarrinho")
         botao.value = 'COMPRAR'
+        debugger
+
 
         div.append(figure)
         div.append(texto)
