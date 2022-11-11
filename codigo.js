@@ -85,7 +85,6 @@ var listaProdutosJSON = [
 ]
 
 var queroQueApareca = []
-var paginas = 0
 
 function pesquisar() {
 
@@ -138,16 +137,18 @@ function aparecer() {
 
     if (queroQueApareca.length > 0) {
 
-        let pesquisa = document.getElementById("search").value
+        let pesquisa = document.getElementById("search")
 
         let h2 = document.createElement("h2")
-        h2.innerText = pesquisa
+        h2.innerText = pesquisa.value
 
         let detalhe = document.createElement("div")
         detalhe.classList.add("detalheCategoria")
 
         aside.append(h2)
         aside.append(detalhe)
+
+        pesquisa.value = ""
 
         for (let contador = 0; contador < queroQueApareca.length; contador++) {
             let item = queroQueApareca[contador]
