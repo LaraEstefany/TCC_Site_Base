@@ -492,5 +492,106 @@
         ],
         "img": "https://img.ltwebstatic.com/images3_pi/2021/09/29/16329069918a6d73ba3864e7d27a215c14b48bf893_thumbnail_600x.webp",
         "img2": "https://img.ltwebstatic.com/images3_pi/2021/09/29/16329069942f4c1dc99f71cc9784a653459d6020cc_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Colar pingente de dólar com asas",
+        "preco": 53.95,
+        "categoria": [
+            "colar",
+            "acessorios",
+            "lançamento",
+            "prata"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/10/17/1665977707a11cce3f4d0f5d160da174eb6820554b_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/10/17/1665977710f44982aaaa7397f0940780747b4eb61e_thumbnail_600x.webp",
+    },
+    {
+        "nome": "Corrente strass cifrão",
+        "preco": 17.90,
+        "categoria": [
+            "colar",
+            "acessorios",
+            "prata"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/09/21/1663750385563f3ca552bf20b1f0c70ae1d1526d62_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/09/21/16637503865ddd6378db30a9f43bcfb8c145029053_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Colar Órgão do coração",
+        "preco": 45.85,
+        "categoria": [
+            "colar",
+            "acessorios",
+            "lançamento",
+            "prata"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/08/09/16600116139b87f5c001b3901e08bbe78b487301e6_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/09/1660011614128b1aacc66d6649819968d8e0bc15c5_thumbnail_600x.webp"
+    },
+    {
+        "nome": "6 anéis detalhe de caveira",
+        "preco": 25.99,
+        "categoria": [
+            "anel",
+            "acessorios",
+            "prata",
+            "lançamento"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/10/28/163542154162c6625bd6f90aa4715961ed3839d773_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/10/25/1635157484a660936718227e12239748ce8950797a_thumbnail_600x.webp"
+    },
+    {
+        "nome": "16 anéis lua e sol",
+        "preco": 38.99,
+        "categoria": [
+            "anel",
+            "acessorios",
+            "prata",
+            "lançamento"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/08/22/1661133026c43051faf66ecfaf39700350daee2b98_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/08/22/1661133030b2d070851ddc6014a106ab037aa4e4ed_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Boné de beisebol",
+        "preco": 32.99,
+        "categoria": [
+            "boné",
+            "acessorios",
+            "lançamento"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2022/03/21/164782894653f6981514787e7068c18132dd821291_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2022/03/21/16478289495eb8278a6e2df3c2d2754160c0b11ae4_thumbnail_600x.webp"
+    },
+    {
+        "nome": "Boné com 3 argolas",
+        "preco": 22.90,
+        "categoria": [
+            "boné",
+            "acessorios"
+        ],
+        "tamanho": [
+            "único"
+        ],
+        "img": "https://img.ltwebstatic.com/images3_pi/2021/07/14/1626232093d937c1dc5cfbd314914333dd4575a7c0_thumbnail_600x.webp",
+        "img2": "https://img.ltwebstatic.com/images3_pi/2021/07/14/1626232097ba8c69be3e251b0931f71306e90f1d3f_thumbnail_600x.webp"
     }
 ]
