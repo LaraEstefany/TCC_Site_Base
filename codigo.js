@@ -85,6 +85,7 @@ var listaProdutosJSON = [
 ]
 
 var queroQueApareca = []
+var paginas = 0
 
 function pesquisar() {
 
@@ -94,7 +95,6 @@ function pesquisar() {
         let item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
 
         if (item.indexOf(pesquisa) >= 0) {
-            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
 
             queroQueApareca.push(listaProdutosJSON[contador])
         }
@@ -121,7 +121,6 @@ function trocarPagina(pagina) {
         }
 
         if (item.indexOf(menu) >= 0) {
-            alert(listaProdutosJSON[contador].nome + listaProdutosJSON[contador].preco + listaProdutosJSON[contador].categoria)
 
             queroQueApareca.push(listaProdutosJSON[contador])
         }
@@ -134,8 +133,11 @@ var aside = document.getElementById("aside")
 
 function aparecer() {
 
+    produtos.innerHTML = ""
+    aside.innerHTML = ""
+
     if (queroQueApareca.length > 0) {
-        alert(queroQueApareca.length)
+
         let pesquisa = document.getElementById("search").value
 
         let h2 = document.createElement("h2")
@@ -149,9 +151,6 @@ function aparecer() {
 
         for (let contador = 0; contador < queroQueApareca.length; contador++) {
             let item = queroQueApareca[contador]
-
-            alert(item.nome)
-
 
             let div = document.createElement("div")
             div.classList.add("produto")
@@ -185,9 +184,11 @@ function aparecer() {
             figure.append(img)
             produtos.append(div)
         }
+        queroQueApareca = []
     }
-    queroQueApareca = []
 }
+
+trocarPagina(1)
 
 
 
