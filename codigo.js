@@ -94,7 +94,6 @@ function pesquisar() {
         let item = listaProdutosJSON[contador].nome.toLocaleLowerCase()
 
         if (item.indexOf(pesquisa) >= 0) {
-
             queroQueApareca.push(listaProdutosJSON[contador])
         }
     }
@@ -120,7 +119,6 @@ function trocarPagina(pagina) {
         }
 
         if (item.indexOf(menu) >= 0) {
-
             queroQueApareca.push(listaProdutosJSON[contador])
         }
     }
@@ -172,10 +170,9 @@ function aparecer() {
             h3.innerText = queroQueApareca[contador].preco
 
             let botao = document.createElement("input")
+            botao.type = "button"
             botao.classList.add("adicionarCarrinho")
             botao.value = 'COMPRAR'
-            debugger
-
 
             div.append(figure)
             div.append(texto)
@@ -190,8 +187,6 @@ function aparecer() {
 }
 
 trocarPagina(1)
-
-
 
 // function aparecer() {
 //     alert(queroQueApareca.length)
