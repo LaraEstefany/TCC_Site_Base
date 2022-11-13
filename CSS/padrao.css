@@ -111,6 +111,10 @@ footer {
     color: rgb(246, 245, 245);
 }
 
+.escrita:hover {
+    cursor: default;
+}
+
 .logoBase {
     width: 80px;
     display: flex;

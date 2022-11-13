@@ -52,12 +52,17 @@ main {
     font-size: larger;
 }
 
+.textoProduto:hover {
+    cursor: default;
+}
+
 .precoProduto {
     font-size: 30px;
 }
 
 .precoProduto:hover {
-    color: rgb(218, 73, 54);
+    /* color: rgb(218, 73, 54); */
+    cursor: default;
 }
 
 .adicionarCarrinho {
