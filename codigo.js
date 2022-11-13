@@ -46,41 +46,27 @@ async function trocarPagina(pagina) {
     for (let contador = 0; contador < listaProdutos.length; contador++) {
         let item = listaProdutos[contador].categoria
 
+        home.classList.remove("teste")
+        feminino.classList.remove("teste")
+        masculino.classList.remove("teste")
+        calcados.classList.remove("teste")
+        acessorios.classList.remove("teste")
+
         if (pagina === 1) {
             menu = "lançamento"
             home.classList.add("teste")
-            feminino.classList.remove("teste")
-            masculino.classList.remove("teste")
-            calcados.classList.remove("teste")
-            acessorios.classList.remove("teste")
         } else if (pagina === 2) {
             menu = "feminino"
             feminino.classList.add("teste")
-            home.classList.remove("teste")
-            masculino.classList.remove("teste")
-            calcados.classList.remove("teste")
-            acessorios.classList.remove("teste")
         } else if (pagina === 3) {
             menu = "masculino"
             masculino.classList.add("teste")
-            home.classList.remove("teste")
-            feminino.classList.remove("teste")
-            calcados.classList.remove("teste")
-            acessorios.classList.remove("teste")
         } else if (pagina === 4) {
             menu = "calçados"
             calcados.classList.add("teste")
-            home.classList.remove("teste")
-            feminino.classList.remove("teste")
-            masculino.classList.remove("teste")
-            acessorios.classList.remove("teste")
         } else if (pagina === 5) {
             menu = "acessorios"
             acessorios.classList.add("teste")
-            home.classList.remove("teste")
-            feminino.classList.remove("teste")
-            masculino.classList.remove("teste")
-            calcados.classList.remove("teste")
         }
 
         if (item.indexOf(menu) >= 0) {
@@ -92,8 +78,6 @@ async function trocarPagina(pagina) {
 
 var produtos = document.getElementById("produtos")
 var aside = document.getElementById("aside")
-
-
 
 function aparecer() {
 
