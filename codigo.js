@@ -125,6 +125,10 @@ function aparecer() {
             botao.classList.add("adicionarCarrinho")
             botao.value = "COMPRAR"
 
+            botao.addEventListener("click", function () {
+                alert("a")
+            })
+
             div.append(figure)
             div.append(texto)
             div.append(img)
