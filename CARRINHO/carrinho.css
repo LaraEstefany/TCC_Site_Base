@@ -37,7 +37,7 @@ h2 {
     font-size: 25px;
 }
 
-.qtd {
+#qtd {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -53,7 +53,7 @@ h2 {
     font-size: 50px;
 }
 
-.botao {
+#botao {
     border-style: solid;
     border-width: 1px;
     background-color: rgba(132, 33, 33, 0.497);
@@ -61,7 +61,7 @@ h2 {
     margin-left: 70px;
 }
 
-.botao:hover {
+#botao:hover {
     cursor: pointer;
     background-color: rgba(104, 25, 25, 0.497);
     ;
@@ -78,4 +78,36 @@ h2 {
     justify-content: space-around;
     margin-top: 5vh;
     margin-bottom: 5vh;
-} *
+} */
+
+.caixaTotal {
+    border-bottom-style: solid;
+    border-width: 7px;
+    background-color: white;
+    border-radius: 3px;
+    border-color: rgb(218, 73, 54);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 36.5vw;
+}
+
+.msgTotal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#botaoComprar {
+    cursor: pointer;
+    background-color: rgb(218, 73, 54);
+    border-radius: 50px;
+    width: 180px;
+    margin-left: 4px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#botaoComprar:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
