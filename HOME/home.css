@@ -13,10 +13,11 @@ main {
     display: flex;
     width: 98vw;
     flex-wrap: wrap;
-    row-gap: 3vh;
+    row-gap: 4vh;
+    column-gap: 3vw;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -31,6 +32,7 @@ main {
     height: 65vh;
     width: 20vw;
     font-family: 'Oswald', sans-serif;
+    margin-left: 2vw;
 }
 
 .figure {
