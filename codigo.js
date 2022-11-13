@@ -68,11 +68,11 @@ function aparecer() {
         let h2 = document.createElement("h2")
         h2.innerText = pesquisa.value
 
-        let detalhe = document.createElement("div")
-        detalhe.classList.add("detalheCategoria")
+        // let detalhe = document.createElement("div")
+        // detalhe.classList.add("detalheCategoria")
 
         aside.append(h2)
-        aside.append(detalhe)
+        // aside.append(detalhe)
 
         pesquisa.value = ""
 
@@ -100,7 +100,7 @@ function aparecer() {
             let botao = document.createElement("input")
             botao.type = "button"
             botao.classList.add("adicionarCarrinho")
-            botao.value = 'COMPRAR'
+            botao.value = "COMPRAR"
 
             div.append(figure)
             div.append(texto)
