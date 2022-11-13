@@ -1,6 +1,18 @@
 var queroQueApareca = []
 
+var home = document.getElementById("home")
+var feminino = document.getElementById("feminino")
+var masculino = document.getElementById("masculino")
+var calcados = document.getElementById("calcados")
+var acessorios = document.getElementById("acessorios")
+
 async function pesquisar() {
+
+    home.classList.remove("teste")
+    feminino.classList.remove("teste")
+    masculino.classList.remove("teste")
+    calcados.classList.remove("teste")
+    acessorios.classList.remove("teste")
 
     let endpointProduto = "https://codifica-demo-api.herokuapp.com/api/v2/streetwear/products"
 
@@ -36,14 +48,39 @@ async function trocarPagina(pagina) {
 
         if (pagina === 1) {
             menu = "lançamento"
+            home.classList.add("teste")
+            feminino.classList.remove("teste")
+            masculino.classList.remove("teste")
+            calcados.classList.remove("teste")
+            acessorios.classList.remove("teste")
         } else if (pagina === 2) {
             menu = "feminino"
+            feminino.classList.add("teste")
+            home.classList.remove("teste")
+            masculino.classList.remove("teste")
+            calcados.classList.remove("teste")
+            acessorios.classList.remove("teste")
         } else if (pagina === 3) {
             menu = "masculino"
+            masculino.classList.add("teste")
+            home.classList.remove("teste")
+            feminino.classList.remove("teste")
+            calcados.classList.remove("teste")
+            acessorios.classList.remove("teste")
         } else if (pagina === 4) {
             menu = "calçados"
+            calcados.classList.add("teste")
+            home.classList.remove("teste")
+            feminino.classList.remove("teste")
+            masculino.classList.remove("teste")
+            acessorios.classList.remove("teste")
         } else if (pagina === 5) {
             menu = "acessorios"
+            acessorios.classList.add("teste")
+            home.classList.remove("teste")
+            feminino.classList.remove("teste")
+            masculino.classList.remove("teste")
+            calcados.classList.remove("teste")
         }
 
         if (item.indexOf(menu) >= 0) {
@@ -55,6 +92,8 @@ async function trocarPagina(pagina) {
 
 var produtos = document.getElementById("produtos")
 var aside = document.getElementById("aside")
+
+
 
 function aparecer() {
 
