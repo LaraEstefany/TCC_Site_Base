@@ -29,6 +29,8 @@ main {
     justify-content: space-around;
     text-align: center;
     background-color: white;
+    min-width: 200px;
+    min-height: fit-content;
     height: 65vh;
     width: 20vw;
     font-family: 'Oswald', sans-serif;
@@ -73,6 +75,7 @@ main {
     height: 5vh;
     width: 13vw;
     cursor: pointer;
+    min-height: fit-content;
 }
 
 .adicionarCarrinho:hover {
@@ -90,10 +93,3 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
 }
-
-
-
-/* figure {
-    background-color: rgb(192, 175, 20);
-    height: 30vh;
-} */
