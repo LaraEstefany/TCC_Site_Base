@@ -1,7 +1,10 @@
 var queroQueApareca = []
-var carrinho = []
 
-
+if (localStorage.getItem("carrinho") != null) {
+    var carrinho = JSON.parse(localStorage.getItem("carrinho"))
+} else {
+    carrinho = []
+}
 
 var home = document.getElementById("home")
 var feminino = document.getElementById("feminino")
@@ -130,9 +133,8 @@ function aparecer() {
 
             botao.addEventListener("click", function () {
                 carrinho.push(item)
-                var carrinhoJSON = JSON.stringify(carrinho);
+                var carrinhoJSON = JSON.stringify(carrinho)
                 localStorage.setItem("carrinho", carrinhoJSON)
-                // adicionarAoCarrinho()
             })
 
             div.append(figure)
