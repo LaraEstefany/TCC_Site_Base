@@ -6,24 +6,51 @@ main {
     background-color: rgb(48, 49, 48);
 }
 
-form {
+.caixaCadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    height: 80vh;
-    width: 30vw;
+    ;
+    height: 60vh;
+    width: 51vw;
     background-color: rgb(218, 218, 218);
-    border-radius: 10px;
+    ;
 }
 
 .criaConta {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 16vh;
-    width: 30vw;
+    justify-content: space-between;
+    width: 51vw;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 22px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div1 {
+    margin-left: 50px;
+}
+
+.div2 {
+    margin-right: 50px;
+}
+
+.conectado {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    margin-right: 300px;
 }
 
 .botoes {
@@ -33,37 +60,14 @@ form {
     justify-content: space-around;
     height: 20vh;
     width: 30vw;
+    margin-top: 30px;
 }
 
-.conectado {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 25vw;
+form {
+    background-color: rgb(218, 218, 218);
+    ;
 }
 
-input {
-    background-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    height: 5vh;
-    width: 25vw;
-    margin-top: 8px;
-    padding: 5px;
-}
-
-p {
-    width: fit-content;
-}
-
-.cadastre-se {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 18vw;
-}
-
-#conectado {
-    width: fit-content;
-    margin-right: 1vw;
+img {
+    margin-left: 300px;
 }
