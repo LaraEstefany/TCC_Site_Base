@@ -37,19 +37,23 @@ h2 {
     font-size: 25px;
 }
 
+.textQtd {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 110px;
+}
+
 #qtd {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     width: 40px;
     background-color: white;
-    margin-left: 45px;
+    margin-left: 10px;
     padding-left: 7px;
 }
 
 .valor {
     font-family: 'Oswald', sans-serif;
-    margin-left: 60px;
     font-size: 30px;
 }
 
@@ -58,7 +62,7 @@ h2 {
     border-width: 1px;
     background-color: rgba(132, 33, 33, 0.497);
     padding-bottom: 2.5px;
-    margin-left: 100px;
+    margin-left: 210px;
 }
 
 #botao:hover {
@@ -81,6 +85,8 @@ h2 {
 } */
 
 .caixaTotal {
+    display: flex;
+    align-items: center;
     border-bottom-style: solid;
     border-width: 7px;
     background-color: white;
@@ -88,7 +94,8 @@ h2 {
     border-color: rgb(218, 73, 54);
     padding: 10px;
     margin-top: 30px;
-    margin-left: 36.5vw;
+    margin-left: 43vw;
+    width: 30vw;
 }
 
 .msgTotal {
@@ -107,6 +114,10 @@ h2 {
     border-bottom-style: solid;
     border-width: 1.5px;
     border-color: rgb(192, 192, 192);
+}
+
+.valor {
+    margin-left: 15px;
 }
 
 .textMeuCarrinho {
@@ -133,9 +144,9 @@ h2 {
     cursor: pointer;
     background-color: rgb(218, 73, 54);
     border-radius: 6px;
-    width: 180px;
-    margin-left: 4px;
-    margin-top: 10px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
