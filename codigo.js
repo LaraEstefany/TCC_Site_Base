@@ -118,7 +118,7 @@ function aparecer() {
 
             let h3 = document.createElement("h3")
             h3.classList.add("precoProduto")
-            h3.innerText = queroQueApareca[contador].preco
+            h3.innerText = `R$ ${queroQueApareca[contador].preco.toFixed(2)}`
 
             let botao = document.createElement("input")
             botao.type = "button"
