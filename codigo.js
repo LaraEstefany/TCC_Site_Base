@@ -1,4 +1,5 @@
 var queroQueApareca = []
+var carrinho = []
 
 var home = document.getElementById("home")
 var feminino = document.getElementById("feminino")
@@ -126,7 +127,7 @@ function aparecer() {
             botao.value = "COMPRAR"
 
             botao.addEventListener("click", function () {
-                alert("a")
+                carrinho.push(item)
             })
 
             div.append(figure)
