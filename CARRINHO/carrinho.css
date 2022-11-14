@@ -2,18 +2,51 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
     background-color: rgb(125, 125, 125);
     min-height: 85vh;
     height: fit-content;
 }
 
-.produtos {
+.meuCarrinho {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 75vw;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(192, 192, 192);
+}
+
+.continuarComprando {
+    cursor: pointer;
+    background-color: rgb(218, 73, 54);
+    width: 188px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    align-items: flex-end;
+    border-radius: 6px;
+}
+
+.continuarComprando:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.produtosCarrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 75vw;
+    min-height: 85vh;
+    height: fit-content;
+}
+
+.produtoCarrinho {
     display: flex;
     align-items: center;
-    /* border-style: solid;
-    border-width: 2px; */
-    /* border-radius: 10px; */
     width: 75vw;
     margin-top: 20px;
     height: 20vh;
@@ -24,52 +57,95 @@ main {
     border-color: rgb(218, 73, 54);
 }
 
-.produto {
-    margin-left: 15px;
-    width: 80px;
-    border-radius: 10px;
+.imagemCarrinho {
+    margin-left: 2vw;
+    width: 6vw;
+    border-radius: 6px;
 }
 
-h2 {
+.textoCarrinho {
     font-family: 'Oswald', sans-serif;
     margin-left: 25px;
     font-size: 25px;
+    width: 36vw;
 }
 
-.textQtd {
+.textoQuantidade {
     font-family: 'Oswald', sans-serif;
-    margin-left: 110px;
 }
 
-#qtd {
+.quantidade {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    width: 40px;
+    width: 38px;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 8px;
     padding-left: 7px;
 }
 
 .valor {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
+    width: 15vw;
+    margin-left: 15px;
 }
 
-#botao {
+.excluir {
     border-style: solid;
     border-width: 1px;
     background-color: rgba(132, 33, 33, 0.497);
     padding-bottom: 2.5px;
-    margin-left: 210px;
 }
 
-#botao:hover {
+.excluir:hover {
     cursor: pointer;
     background-color: rgba(104, 25, 25, 0.497);
-    ;
-
 }
+
+.caixaTotal {
+    display: flex;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 7px;
+    background-color: white;
+    border-radius: 3px;
+    border-color: rgb(218, 73, 54);
+    padding: 10px;
+    margin-top: 30px;
+    width: 33vw;
+}
+
+.valorTotal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    width: 10vw;
+    margin-left: 2vw;
+}
+
+.mensagemTotal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.finalizar {
+    cursor: pointer;
+    background-color: rgb(218, 73, 54);
+    border-radius: 6px;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.finalizar:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
 
 /* .produtos {
     display: flex;
@@ -82,75 +158,3 @@ h2 {
     margin-top: 5vh;
     margin-bottom: 5vh;
 } */
-
-.caixaTotal {
-    display: flex;
-    align-items: center;
-    border-bottom-style: solid;
-    border-width: 7px;
-    background-color: white;
-    border-radius: 3px;
-    border-color: rgb(218, 73, 54);
-    padding: 10px;
-    margin-top: 30px;
-    margin-left: 43vw;
-    width: 30vw;
-}
-
-.msgTotal {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-.meuCarrinho {
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    width: 90vw;
-    height: 40px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    border-bottom-style: solid;
-    border-width: 1.5px;
-    border-color: rgb(192, 192, 192);
-}
-
-.valor {
-    margin-left: 15px;
-}
-
-.textMeuCarrinho {
-    margin-left: 10px;
-}
-
-#continuaComprando {
-    cursor: pointer;
-    background-color: rgb(218, 73, 54);
-    margin-right: 20px;
-    width: 188px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    align-items: flex-end;
-    border-radius: 6px;
-}
-
-#continuaComprando:hover {
-    transform: scale(1.05);
-    transition: 0.1s;
-}
-
-#botaoComprar {
-    cursor: pointer;
-    background-color: rgb(218, 73, 54);
-    border-radius: 6px;
-    width: 100px;
-    margin-left: 10px;
-    margin-top: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-#botaoComprar:hover {
-    transform: scale(1.05);
-    transition: 0.1s;
-}

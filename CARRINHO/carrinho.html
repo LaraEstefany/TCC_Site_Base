@@ -58,34 +58,28 @@
     </header>
 
     <main>
-        <div class="meuCarrinho">
-            <h3 class="textMeuCarrinho">Meu carrinho</h3>
-            <input type="button" value="Continuar comprando" id="continuaComprando">
-        </div>
+        <div class="produtosCarrinho">
 
-        <div class=" produtos" id="produtos">
-            <img src="https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp"
-                alt="" class="produto">
-            <h2>Camiseta FIRST-CLASS</h2>
-            <h3 class="textQtd">Qtd.</h3>
-            <input type="number" id="qtd">
-            <h2 class="valor">R$47,99</h2>
-            <input type="button" value="❌" id="botao" onclick="">
-        </div>
-        <div class="produtos" id="produtos">
-            <img src="https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp"
-                alt="" class="produto">
-            <h2>Camiseta FIRST-CLASS</h2>
-            <h3 class="textQtd">Qtd.</h3>
-            <input type="number" id="qtd">
-            <h2 class="valor">R$47,99</h2>
-            <input type="button" value="❌" id="botao" onclick="">
-        </div>
+            <div class="meuCarrinho">
+                <h3 class="textMeuCarrinho">Meu carrinho</h3>
+                <input type="button" value="Continuar comprando" class="continuarComprando">
+            </div>
 
-        <div class="caixaTotal">
-            <p class="msgTotal">Total do pedido :</p>
-            <h2 class="valor">R$95,98</h2>
-            <input type="button" value="Comprar" id="botaoComprar" onclick="">
+            <div class="produtoCarrinho">
+                <img src="https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp"
+                    alt="" class="imagemCarrinho">
+                <p class="textoCarrinho">Camiseta FIRST-CLASS</p>
+                <h3 class="textoQuantidade">Qtd.</h3>
+                <input class="quantidade" type="number" value="1">
+                <h2 class="valor">R$47,99</h2>
+                <input class="excluir" type="button" value="❌" onclick="">
+            </div>
+
+            <div class="caixaTotal">
+                <p class="mensagemTotal">Total do pedido:</p>
+                <h1 class="valorTotal">R$11925,98</h1>
+                <input class="finalizar" type="button" value="Finalizar compra" onclick="">
+            </div>
         </div>
     </main>
 
@@ -118,3 +112,13 @@
 </body>
 
 </html>
+
+<!-- <div class="produtos" id="produtos">
+    <img src="https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp"
+        alt="" class="produto">
+    <p class="textoCarrinho">Camiseta FIRST-CLASS aaaaaaaaaaaaaa</p>
+    <h3 class="textQtd">Qtd.</h3>
+    <input type="number" id="qtd" value="1">
+    <h2 class="valor">R$422,99</h2>
+    <input type="button" value="❌" id="botao" onclick="">
+</div> -->
