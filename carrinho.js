@@ -1,10 +1,14 @@
 var carrinho = JSON.parse(localStorage.getItem("carrinho"))
 var produtosCarrinho = document.getElementById("produtosCarrinho")
+var valorTotal = document.getElementById("valorTotal")
+
+var total = []
+var soma = 0
 
 adicionarAoCarrinho()
 
 function adicionarAoCarrinho() {
-    debugger
+
     for (let contador = 0; contador < carrinho.length; contador++) {
         let item = carrinho[contador]
 
@@ -28,9 +32,11 @@ function adicionarAoCarrinho() {
         number.classList.add("quantidade")
         number.value = 1
 
+        let preco = carrinho[contador].preco
         let h3 = document.createElement("h3")
         h3.classList.add("valor")
-        h3.innerText = `R$ ${carrinho[contador].preco.toFixed(2)}`
+        h3.innerText = `R$ ${preco.toFixed(2)}`
+        total.push(preco)
 
         let excluir = document.createElement("input")
         excluir.type = "button"
@@ -49,4 +55,12 @@ function adicionarAoCarrinho() {
         div.append(excluir)
         produtosCarrinho.append(div)
     }
+    calculoTotal()
+}
+
+function calculoTotal() {
+    for (let contador = 0; contador < total.length; contador++) {
+        soma += total[contador]
+    }
+    valorTotal.innerHTML = `R$ ${soma.toFixed(2)}`
 }
