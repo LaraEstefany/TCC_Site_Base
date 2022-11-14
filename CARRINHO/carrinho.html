@@ -27,12 +27,12 @@
         <div class="headerUp">
 
             <a href="../index.html"><img id="logo" src="/assets/logo.png" alt="Logo"></a>
-
+            <!-- 
             <div class="caixaPesquisa form">
                 <input type="search" name="" id="search" placeholder="Tell me  ̶w̶h̶y̶  what are you looking for.">
                 <button type="submit" value="" id="botaoSearch"><img class="icone" src="/assets/lupa.png" alt=""
                         srcset="" onclick="pesquisar()"></button>
-            </div>
+            </div> -->
 
 
             <div class="caixaFav">
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <nav>
+        <!-- <nav>
             <ul id="catalogo">
                 <li class="li-Cat">FEMININO</li>
                 <li class="li-Cat">MASCULINO</li>
@@ -54,7 +54,7 @@
                 <li class="li-Cat">ACESSÓRIOS</li>
                 <li class="li-Cat">LANÇAMENTOS</li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
@@ -62,9 +62,9 @@
 
             <div class="meuCarrinho">
                 <h3 class="textMeuCarrinho">Meu carrinho</h3>
-                <input type="button" value="Continuar comprando" class="continuarComprando">
+                <a href="../index.html"><input type="button" value="Continuar comprando" class="continuarComprando"></a>
             </div>
-
+            <!-- 
             <div class="produtoCarrinho">
                 <img src="https://img.ltwebstatic.com/images3_pi/2022/08/18/16608080488a4579385b6f50105e9f11ec9f2844ee_thumbnail_600x.webp"
                     alt="" class="imagemCarrinho">
@@ -73,13 +73,14 @@
                 <input class="quantidade" type="number" value="1">
                 <h3 class="valor">R$47,99</h3>
                 <input class="excluir" type="button" value="❌" onclick="">
-            </div>
+            </div> -->
 
             <div class="caixaTotal">
                 <p class="mensagemTotal">Total do pedido:</p>
-                <h1 class="valorTotal">R$11925,98</h1>
+                <h1 id="valorTotal" class="valorTotal">R$0</h1>
                 <input class="finalizar" type="button" value="Finalizar compra" onclick="">
             </div>
+
         </div>
     </main>
 

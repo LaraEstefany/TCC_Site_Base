@@ -7,6 +7,18 @@ main {
     height: fit-content;
 }
 
+header {
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.headerUp {
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+}
+
 .meuCarrinho {
     display: flex;
     font-family: 'Poppins', sans-serif;
