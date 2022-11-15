@@ -1,8 +1,10 @@
 async function entrar() {
-    debugger
+    let email = document.getElementById("email")
+    let senha = document.getElementById("senha")
+
     const corpo = {
-        email: document.getElementById("email").value,
-        senha: document.getElementById("senha").value
+        email: email.value,
+        senha: senha.value
     }
 
     const requisicao = {
@@ -17,5 +19,11 @@ async function entrar() {
 
     const resultadoJson = await resultadoApi.json()
 
-    alert(resultadoJson.mensagem)
+    if (resultadoJson.mensagem == "Login feito com sucesso") {
+
+    } else {
+        email.value = ""
+        senha.value = ""
+        alert(resultadoJson.mensagem)
+    }
 }
