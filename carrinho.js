@@ -64,3 +64,9 @@ function calculoTotal() {
     }
     valorTotal.innerHTML = `R$ ${soma.toFixed(2)}`
 }
+
+function apagar() {
+    localStorage.removeItem("carrinho")
+    alert("Seu carrinho será reiniciado.")
+    window.location.reload(true)
+}
