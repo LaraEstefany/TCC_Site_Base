@@ -116,7 +116,15 @@ function aparecer() {
 
             let img = document.createElement("img")
             img.classList.add("fotoProduto")
-            img.src = queroQueApareca[contador].img
+            let src1 = queroQueApareca[contador].img
+            let src2 = queroQueApareca[contador].img2
+            img.src = src1
+            figure.addEventListener('mouseover', function (event) {
+                img.src = src2
+            })
+            figure.addEventListener('mouseleave', function (event) {
+                img.src = src1
+            })
 
             let texto = document.createElement("p")
             texto.classList.add("textoProduto")
