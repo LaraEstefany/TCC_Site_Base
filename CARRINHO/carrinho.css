@@ -22,6 +22,7 @@ header {
 .meuCarrinho {
     display: flex;
     font-family: 'Poppins', sans-serif;
+    font-size: larger;
     width: 75vw;
     height: 40px;
     justify-content: space-between;
@@ -34,6 +35,7 @@ header {
 
 .continuarComprando {
     cursor: pointer;
+    font-size: medium;
     background-color: rgb(218, 73, 54);
     width: 188px;
     font-family: 'Poppins', sans-serif;
@@ -80,6 +82,7 @@ header {
     margin-left: 25px;
     font-size: 25px;
     width: 36vw;
+    min-width: fit-content;
 }
 
 .textoQuantidade {
@@ -122,10 +125,17 @@ header {
     border-width: 7px;
     background-color: white;
     border-radius: 3px;
-    border-color: rgb(218, 73, 54);
+    border-color: rgb(48, 49, 48);
     padding: 10px;
     margin-top: 30px;
     width: 33vw;
+    min-width: fit-content;
+}
+
+.mensagemTotal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 10vw;
     min-width: fit-content;
 }
 
@@ -133,28 +143,28 @@ header {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     width: 10vw;
+    min-width: fit-content;
     margin-left: 2vw;
-}
-
-.mensagemTotal {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
 }
 
 .finalizar {
     cursor: pointer;
-    background-color: rgb(218, 73, 54);
+    background-color: rgb(48, 49, 48);
+    color: white;
     border-radius: 6px;
     width: fit-content;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 8px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .finalizar:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(218, 73, 54);
     transform: scale(1.05);
     transition: 0.1s;
 }
