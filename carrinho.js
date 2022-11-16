@@ -1,5 +1,15 @@
 var login = JSON.parse(localStorage.getItem("login"))
 
+var mudanca = document.getElementById("mudanca")
+
+if (login[0].id == 1) {
+    mudanca.title = "Usuário 1"
+} else if (login[0].id == 2) {
+    mudanca.title = "Usuário 2"
+} else if (login[0].id == 3) {
+    mudanca.title = "Usuário 3"
+}
+
 var carrinho1 = JSON.parse(localStorage.getItem("carrinho1"))
 var carrinho2 = JSON.parse(localStorage.getItem("carrinho2"))
 var carrinho3 = JSON.parse(localStorage.getItem("carrinho3"))
