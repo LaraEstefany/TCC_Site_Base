@@ -38,6 +38,10 @@ button:hover {
     height: 30px;
 }
 
+.icone:hover {
+    cursor: pointer;
+}
+
 .headerUp {
     display: flex;
     flex-direction: row;
