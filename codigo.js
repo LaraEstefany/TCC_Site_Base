@@ -1,10 +1,67 @@
 var queroQueApareca = []
 
-if (localStorage.getItem("carrinho") != null) {
-    var carrinho = JSON.parse(localStorage.getItem("carrinho"))
-} else {
-    carrinho = []
+var login = JSON.parse(localStorage.getItem("login"))
+
+if (localStorage.getItem("carrinho1") != null) {
+    var carrinho1 = JSON.parse(localStorage.getItem("carrinho1"))
+} else if (localStorage.getItem("carrinho1") == null) {
+    var carrinho1 = []
 }
+
+if (localStorage.getItem("carrinho2") != null) {
+    var carrinho2 = JSON.parse(localStorage.getItem("carrinho2"))
+} else if (localStorage.getItem("carrinho2") == null) {
+    var carrinho2 = []
+}
+
+if (localStorage.getItem("carrinho3") != null) {
+    var carrinho3 = JSON.parse(localStorage.getItem("carrinho3"))
+} else if (localStorage.getItem("carrinho3") == null) {
+    var carrinho3 = []
+}
+
+
+// {
+//     carrinho = {
+//         produtos: [],
+//         id: login[0].id
+//     }
+// }
+
+
+
+// var carrinho = {
+//     produtos: [],
+//     id: login[0].id
+// }
+
+// if (localStorage.getItem("carrinhos") != null) {
+//     var carrinhos = localStorage.getItem("carrinhos")
+//     for (let contador = 0; contador < carrinhos.length; contador++) {
+//         let daVez = carrinhos[contador]
+
+//         if (daVez.id == login[0].id) {
+//             carrinho = daVez.produtos
+//         } else {
+//             carrinho = {
+//                 produtos: [],
+//                 id: login[0].id
+//             }
+//         }
+//     }
+// } else {
+//     var carrinhos = []
+
+// if (localStorage.getItem("carrinho") != null) {
+//     if (carrinho.id == login[0].id) {
+//         carrinho = JSON.parse(localStorage.getItem("carrinho"))
+//     }
+// } else {
+//     carrinho = {
+//         produtos: [],
+//         id: login[0].id
+//     }
+// }
 
 var home = document.getElementById("home")
 var feminino = document.getElementById("feminino")
@@ -139,15 +196,38 @@ function aparecer() {
             botao.classList.add("adicionarCarrinho")
             botao.value = "COMPRAR"
 
-            botao.addEventListener("click", function () {
-                carrinho.push(item)
-                var carrinhoJSON = JSON.stringify(carrinho)
-                localStorage.setItem("carrinho", carrinhoJSON)
-            })
+            if (login != null) {
+                if (login[0].id == 1) {
+                    botao.addEventListener("click", function () {
+                        carrinho1.push(item)
+                        var carrinho1JSON = JSON.stringify(carrinho1)
+                        localStorage.setItem("carrinho1", carrinho1JSON)
+                    })
+                } else if (login[0].id == 2) {
+                    botao.addEventListener("click", function () {
+
+                        carrinho2.push(item)
+                        var carrinho2JSON = JSON.stringify(carrinho2)
+                        localStorage.setItem("carrinho2", carrinho2JSON)
+                    })
+                } else if (login[0].id == 3) {
+                    botao.addEventListener("click", function () {
+
+                        carrinho3.push(item)
+                        var carrinho3JSON = JSON.stringify(carrinho3)
+                        localStorage.setItem("carrinho3", carrinho3JSON)
+                    })
+                }
+            } else {
+                debugger
+                botao.addEventListener("click", function () {
+                    alert("Por favor faça login para adicionar produtos ao seu carrinho.")
+                    window.location.href = "red2.html"
+                })
+            }
 
             div.append(figure)
             div.append(texto)
-            div.append(img)
             div.append(h3)
             div.append(botao)
             figure.append(img)
@@ -157,4 +237,47 @@ function aparecer() {
     }
 }
 
+function irPara(onde) {
+
+    if (onde == 1) {
+        window.location.href = "red2.html"
+    } else if (onde == 2) {
+        if (login != null) {
+            window.location.href = "red3.html"
+        } else {
+            alert("Por favor faça login para visualizar seus favoritos.")
+            window.location.href = "red2.html"
+        }
+    } if (onde == 3) {
+        if (login != null) {
+            window.location.href = "red4.html"
+        } else {
+            alert("Por favor faça login para acessar o carrinho.")
+            window.location.href = "red2.html"
+        }
+    }
+}
+
+// function DEPOISEUVEJO() {
+//     carrinhos.push(carrinho)
+//     var carrinhosJSON = JSON.stringify(carrinhos)
+//     localStorage.setItem("carrinhos", carrinhosJSON)
+// }
+
 trocarPagina(1)
+
+// DEPOIS DO BOTÃO
+// if (login != null) {
+//     // carrinho.id = login[0].id
+//     botao.addEventListener("click", function () {
+//         debugger
+//         carrinho.produtos.push(item)
+//         var carrinhosJSON = JSON.stringify(carrinhos)
+//         localStorage.setItem("carrinhos", carrinhosJSON)
+//     })
+// } else {
+//     botao.addEventListener("click", function () {
+//         alert("Por favor faça login para adicionar produtos ao seu carrinho.")
+//         window.location.href = "red2.html"
+//     })
+// }

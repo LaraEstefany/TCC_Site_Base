@@ -27,7 +27,6 @@ async function entrar() {
     let usuarioJson = await usuario.json()
 
     if (resultadoJson.mensagem == "Login feito com sucesso") {
-        debugger
         for (let contador = 0; contador < usuarioJson.length; contador++) {
             let item = usuarioJson[contador]
             if (email.value == item.email) {
