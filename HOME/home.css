@@ -1,8 +1,23 @@
+.headerUp {
+    flex-wrap: wrap;
+    min-height: max-content;
+}
+
+header {
+    min-height: fit-content;
+    max-height: max-content;
+}
+
+.form {
+    min-width: 240px;
+}
+
 main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: rgb(139, 139, 139);
     /* kground-image: url(/assets/wallpaper-street.jpg; */
     min-height: 85vh;
@@ -29,7 +44,7 @@ main {
     justify-content: space-around;
     text-align: center;
     background-color: white;
-    min-width: 200px;
+    min-width: fit-content;
     min-height: fit-content;
     height: 65vh;
     width: 20vw;
@@ -42,16 +57,20 @@ main {
     align-items: center;
     justify-content: center;
     background-color: rgb(218, 73, 54);
+    min-width: 240px;
     height: 35vh;
     width: 18vw;
 }
 
 .fotoProduto {
+    max-width: max-content;
     height: 35vh;
 }
 
 .textoProduto {
     font-size: larger;
+    width: max-content;
+    min-width: 260px;
 }
 
 .textoProduto:hover {
@@ -75,6 +94,9 @@ main {
     height: 5vh;
     width: 13vw;
     cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    min-width: 200px;
     min-height: fit-content;
 }
 

@@ -22,13 +22,12 @@ var soma = 0
 // var carrinhos = JSON.parse(localStorage.getItem("carrinhos"))
 
 adicionarAoCarrinho()
-debugger
 
 function adicionarAoCarrinho() {
     // id = carrinhos.carrinho.id
     // produtosCarrinho.innerHTML = ""
 
-    if (login[0].id == 1) {
+    if (login[0].id == 1 && carrinho1 != null) {
 
         for (let contador = 0; contador < carrinho1.length; contador++) {
             let item = carrinho1[contador]
@@ -46,12 +45,12 @@ function adicionarAoCarrinho() {
 
             let h2 = document.createElement("h2")
             h2.classList.add("textoQuantidade")
-            h2.innerText = `Qtd.`
+            h2.innerText = `Quantidade: 1`
 
-            let number = document.createElement("input")
-            number.type = "number"
-            number.classList.add("quantidade")
-            number.value = 1
+            // let number = document.createElement("input")
+            // number.type = "number"
+            // number.classList.add("quantidade")
+            // number.value = 1
 
             let preco = item.preco
             let h3 = document.createElement("h3")
@@ -71,12 +70,12 @@ function adicionarAoCarrinho() {
             div.append(img)
             div.append(texto)
             div.append(h2)
-            div.append(number)
+            // div.append(number)
             div.append(h3)
             div.append(excluir)
             produtosCarrinho.append(div)
         }
-    } else if (login[0].id == 2) {
+    } else if (login[0].id == 2 && carrinho2 != null) {
 
         for (let contador = 0; contador < carrinho2.length; contador++) {
             let item = carrinho2[contador]
@@ -94,12 +93,12 @@ function adicionarAoCarrinho() {
 
             let h2 = document.createElement("h2")
             h2.classList.add("textoQuantidade")
-            h2.innerText = `Qtd.`
+            h2.innerText = `Quantidade: 1`
 
-            let number = document.createElement("input")
-            number.type = "number"
-            number.classList.add("quantidade")
-            number.value = 1
+            // let number = document.createElement("input")
+            // number.type = "number"
+            // number.classList.add("quantidade")
+            // number.value = 1
 
             let preco = item.preco
             let h3 = document.createElement("h3")
@@ -119,12 +118,12 @@ function adicionarAoCarrinho() {
             div.append(img)
             div.append(texto)
             div.append(h2)
-            div.append(number)
+            // div.append(number)
             div.append(h3)
             div.append(excluir)
             produtosCarrinho.append(div)
         }
-    } else if (login[0].id == 3) {
+    } else if (login[0].id == 3 && carrinho3 != null) {
 
         for (let contador = 0; contador < carrinho3.length; contador++) {
             let item = carrinho3[contador]
@@ -142,12 +141,12 @@ function adicionarAoCarrinho() {
 
             let h2 = document.createElement("h2")
             h2.classList.add("textoQuantidade")
-            h2.innerText = `Qtd.`
+            h2.innerText = `Quantidade: 1`
 
-            let number = document.createElement("input")
-            number.type = "number"
-            number.classList.add("quantidade")
-            number.value = 1
+            // let number = document.createElement("input")
+            // number.type = "number"
+            // number.classList.add("quantidade")
+            // number.value = 1
 
             let preco = item.preco
             let h3 = document.createElement("h3")
@@ -167,7 +166,7 @@ function adicionarAoCarrinho() {
             div.append(img)
             div.append(texto)
             div.append(h2)
-            div.append(number)
+            // div.append(number)
             div.append(h3)
             div.append(excluir)
             produtosCarrinho.append(div)

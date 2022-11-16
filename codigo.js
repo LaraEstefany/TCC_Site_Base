@@ -231,7 +231,7 @@ function aparecer() {
                     })
                 }
             } else {
-                debugger
+
                 botao.addEventListener("click", function () {
                     alert("Por favor faça login para adicionar produtos ao seu carrinho.")
                     window.location.href = "red2.html"

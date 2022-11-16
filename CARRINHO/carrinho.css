@@ -61,10 +61,12 @@ header {
 
 .produtoCarrinho {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 75vw;
     margin-top: 20px;
     height: 20vh;
+    min-height: fit-content;
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
     border-bottom-style: solid;
@@ -74,16 +76,19 @@ header {
 
 .imagemCarrinho {
     margin-left: 2vw;
+    min-width: 50px;
     width: 6vw;
     border-radius: 6px;
 }
 
 .textoCarrinho {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Oswald', sans-serif;
     margin-left: 25px;
     font-size: 25px;
     width: 36vw;
-    min-width: fit-content;
+    /* min-width: fit-content; */
 }
 
 .textoQuantidade {
@@ -103,6 +108,7 @@ header {
 .valor {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
+    min-width: max-content;
     width: 15vw;
     margin-left: 15px;
 }
@@ -123,6 +129,7 @@ header {
 
 .caixaTotal {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-bottom-style: solid;
     border-width: 7px;
@@ -151,6 +158,10 @@ header {
 }
 
 .finalizar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    min-height: fit-content;
     cursor: pointer;
     background-color: rgb(48, 49, 48);
     color: white;

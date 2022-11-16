@@ -1,7 +1,9 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: rgb(48, 49, 48);
+    min-height: fit-content;
     height: 25vh;
 }
 
@@ -22,6 +24,7 @@ header {
 
 #search {
     width: 37vw;
+    min-width: max-content;
     margin-left: 1vw;
 }
 
@@ -47,12 +50,14 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    min-height: fit-content;
     height: 20vh;
 }
 
 .caixaFav {
     display: flex;
     justify-content: space-between;
+    min-width: max-content;
     width: 7vw;
 }
 
